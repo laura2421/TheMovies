@@ -9,7 +9,7 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Design4Profit</title>
+        <title>The Movies: Your own movie list!</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -22,36 +22,22 @@
         <link rel="stylesheet" href="font/font.css">
     </head>
     <body>
+        <jsp:include page="header.jsp" />
         <div id="wrapper">
             <section class="section-1">
                 <div class="container">
                     <header class="site-header">
                         <div class="row">
                             <div class="col-sm-4 col-xs-8">
-                                <h1 class="logo"><a href="index.jsp">Design4Profit</a></h1>
+                                <h1 class="logo"><a href="index.jsp">TheMovies</a></h1>
                             </div>
-                            <div class="col-sm-8 col-xs-4">
-                                <nav class="navbar pull-right" role="navigation">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                        <span class="ion-navicon"></span>
-                                    </button>
-
-                                    <!-- Collect the nav links, forms, and other content for toggling -->
-                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                        <ul class="nav navbar-nav">
-                                            <li><a href="team.jsp">Our Team</a></li>
-                                            <li><a href="contact.jsp">Contact</a></li>
-                                        </ul>
-                                    </div><!-- /.navbar-collapse -->
-                                </nav>
-                            </div>
+                            
                         </div>  <!-- row -->
                     </header>   <!-- site header -->
 
-                    <h1 class="promo-text">We Design Websites That Are Guaranteed To Make You Money</h1>
+                    <h1 class="promo-text">Your own personalised list of movies</h1>
                     <div class="CTA text-center">
-                        <a href="http://technextit.com/" class="btn-CTA">Find More</a>
+                        <a href="register.jsp" class="btn-CTA">What are you waiting for? Register for an account now!</a>
                     </div>
                 </div>
             </section>
@@ -60,7 +46,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-1">
-                            <div class="icon-holder icon-holder-1">
+                            <div class="icon-holder icon-holder">
                                 <span class="ion-ios7-people-outline"></span>
                             </div>
                         </div>
@@ -71,7 +57,7 @@
 
                     <div class="row">
                         <div class="col-md-1">
-                            <div class="icon-holder icon-holder-2">
+                            <div class="icon-holder icon-holder">
                                 <span class="ion-ios7-search"></span>
                             </div>
                         </div>
@@ -82,7 +68,7 @@
 
                     <div class="row">
                         <div class="col-md-1">
-                            <div class="icon-holder icon-holder-3">
+                            <div class="icon-holder icon-holder">
                                 <span class="ion-ios7-cloudy-night-outline"></span>
                             </div>
                         </div>
@@ -97,31 +83,25 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <header class="section-header">Testimonials</header>
+
                             <div class="owl-carousel">
                                 <div class="slider-item">
                                     <figure class="testimonial-img">
-                                        <img src="https://www.digitalocean.com/assets/images/jeff_atwood-2f189304.jpg" alt="Doug Hudiburg">
+                                        <img src="img/createyourlist.jpg" alt="Create your list">
                                     </figure>
-                                    <blockquote>The Technext team is absolutely critical to my business. They work as an extension of my team and are always ready to jump in and take tasks as they are assigned to them. Most of all, they are great people… very dedicated to making sure their clients are happy and get the results they want and need. Technext is my go-to resource for programming and technical skills.</blockquote>
-                                    <h1 class="client-name">Doug Hudiburg</h1>
-                                    <span class="client-designation">President, HME Interactive</span>
+                                    <blockquote>Create your list</blockquote>
                                 </div>
                                 <div class="slider-item">
                                     <figure class="testimonial-img">
-                                        <img src="https://www.digitalocean.com/assets/images/jeff_atwood-2f189304.jpg" alt="Dwaynne Villiers">
+                                        <img src="img/getpercents.jpg" alt="Percent match">
                                     </figure>
-                                    <blockquote>We have only embarked on three projects with the Technext team so far, but they really outdid themselves with this initial delivery. Friendly, knowledgeable, consistently sought clarification, dedicated to delivering a proper solution, result-oriented. We are already in talks to undertake more projects and are strongly considering them as an extension of our technical team.</blockquote>
-                                    <h1 class="client-name">Dwaynne Villiers</h1>
-                                    <span class="client-designation">Managing Director at VIRB Limited</span>
+                                    <blockquote>View your percent match with other people</blockquote>
                                 </div>
                                 <div class="slider-item">
                                     <figure class="testimonial-img">
-                                        <img src="https://www.digitalocean.com/assets/images/jeff_atwood-2f189304.jpg" alt="Nathan Devine">
+                                        <img src="img/getreccs.jpg" alt="Get recommendations">
                                     </figure>
-                                    <blockquote>Fantastic work. Technext team made all changes and followed the brief exactly. They are dedicated to getting to the job complete.</blockquote>
-                                    <h1 class="client-name">Nathan Devine</h1>
-                                    <span class="client-designation">Australia</span>
+                                    <blockquote>Get recommendations</blockquote>
                                 </div>
                             </div>
                         </div>
@@ -129,26 +109,8 @@
                 </div>
             </section>
 
-            <div class="section-4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href="http://theunforgettablechallenge.com/" target="_blank"><img alt="The Unforgettable Challenge" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/ufc.png"></a>
-                            <a href="http://www.pilatesonlineacademy.com/" target="_blank"><img alt="Pilates Online Academy" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/poa.png"></a>
-                            <a href="http://www.tripadvisor.co.uk/Restaurant_Review-g186291-d4892078-Reviews-Momo_s_Grill_Seafood_Restaurant-Stroud_Cotswolds_Gloucestershire_England.html" target="_blank"><img alt="Momo's Grill &amp; Seafood Restaurant" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/momos.png"></a>
-                            <a href="http://gymlongueuil.ca/" target="_blank"><img alt="Centre Orion" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/centre-orion.png"></a>
-                            <a href="http://bo-po.com/" target="_blank"><img alt="BO-PO" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/bopo.png"></a>
-                            <a href="http://www.cliniquedentairedegeneve.ch/" target="_blank"><img alt="Clinique Dentaire de Gen&#232;ve - Accueil" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/dl.png"></a>
-                            <a href="http://www.sfdistribution.ca/" target="_blank"><img alt="SF Distribution" src="http://technextit.com/wp-content/themes/technext/images/clients/logo/sf.png"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <footer class="site-footer">
-                <div class="copyright">
-                    &copy; 2014 Design4Profit.com
-                </div>
+                <jsp:include page="footer.jsp" />  
             </footer>
         </div>  <!-- wrapper -->
 

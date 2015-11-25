@@ -22,6 +22,7 @@
      
     </head>
     <body id="p-our-team">
+        <jsp:include page="header.jsp" />
         <div id="wrapper">
             <section class="section-1">
                 <div class="container">
@@ -29,22 +30,6 @@
                         <div class="row">
                             <div class="col-sm-4 col-xs-8">
                                 <h1 class="logo"><a href="index.jsp">Design4Profit</a></h1>
-                            </div>
-                            <div class="col-sm-8 col-xs-4">
-                                <nav class="navbar pull-right" role="navigation">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                        <span class="ion-navicon"></span>
-                                    </button>
-
-                                    <!-- Collect the nav links, forms, and other content for toggling -->
-                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                        <ul class="nav navbar-nav">
-                                            <li><a href="team.jsp">Our Team</a></li>
-                                            <li><a href="contact.jsp">Contact</a></li>
-                                        </ul>
-                                    </div><!-- /.navbar-collapse -->
-                                </nav>
                             </div>
                         </div>  <!-- row -->
                     </header>   <!-- site header -->
@@ -241,7 +226,7 @@
 
             <footer class="site-footer">
                 <div class="copyright">
-                    &copy; 2014 Design4Profit.com
+                    <jsp:include page="footer.jsp" />  
                 </div>
             </footer>
         </div>  <!-- wrapper -->

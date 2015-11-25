@@ -23,7 +23,7 @@ a, a:active, a:focus, a:hover {outline: none;}
 	margin: 0;
 }
 
-.section-1 {background-color: #0093AF;}
+.section-1 {background-color: #b30000;}
 
 .site-header {
 	padding-top: 30px;
@@ -121,20 +121,7 @@ margin-bottom: 50px;
 	border-radius: 56px;
 	height: 56px;
 	width: 56px;
-}
-
-.icon-holder-1 {
-	background-color: #3686be;
-	margin: 10px auto 0;
-}
-
-.icon-holder-2 {
-	background-color: #93cc76;
-	margin: 10px auto 0;
-}
-
-.icon-holder-3 {
-	background-color: #f6936f;
+        background-color: #006B6B;
 	margin: 10px auto 0;
 }
 
@@ -143,7 +130,7 @@ margin-bottom: 50px;
 }
 
 .section-3 {
-background-color: #0093AF;
+background-color: #b30000;
 padding: 90px 0 100px 0;
 text-align: center;
 }
@@ -160,8 +147,8 @@ cursor: -webkit-grab;
 }
 
 .testimonial-img img {
-max-width: 150px;
-height: 150px;
+max-width: 500px;
+height: 500px;
 border-radius: 75px;
 border: 5px solid #e6e9eb;
 margin: 0 auto;
@@ -308,7 +295,7 @@ label span {
 }
 
 #contact-form .btn-submit {
-	background-color: #0093AF;
+	background-color: #b30000;
 	border: none;
 	text-align: center;
 	width: 100%;
