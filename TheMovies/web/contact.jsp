@@ -1,7 +1,13 @@
+<%-- 
+    Document   : contact
+    Created on : Nov 25, 2015, 10:50:49 PM
+    Author     : lenovo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Design4Profit</title>
 
@@ -22,7 +28,7 @@
                     <header class="site-header">
                         <div class="row">
                             <div class="col-sm-4 col-xs-8">
-                                <h1 class="logo"><a href="index.html">Design4Profit</a></h1>
+                                <h1 class="logo"><a href="index.jsp">Design4Profit</a></h1>
                             </div>
                             <div class="col-sm-8 col-xs-4">
                                 <nav class="navbar pull-right" role="navigation">
@@ -34,8 +40,8 @@
                                     <!-- Collect the nav links, forms, and other content for toggling -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                         <ul class="nav navbar-nav">
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="team.jsp">Our Team</a></li>
+                                            <li><a href="contact.jsp">Contact</a></li>
                                         </ul>
                                     </div><!-- /.navbar-collapse -->
                                 </nav>
@@ -123,3 +129,4 @@
     </script>
     </body>
 </html>
+
